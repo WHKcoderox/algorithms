@@ -20,7 +20,7 @@ int main(){
 	memset(memo, -1, sizeof(memo));
 	
 	// set base case values
-	memo[0] = (long long int) 1; memo[1] = (long long int) 1;
+	memo[0] = 1; memo[1] = 1;
 	int n; long long int result;
 	cin >> n; result = nthFibo(n);
 	cout << result << endl;
