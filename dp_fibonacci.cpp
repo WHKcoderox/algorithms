@@ -24,4 +24,5 @@ int main(){
 	int n; long long int result;
 	cin >> n; result = nthFibo(n);
 	cout << result << endl;
+	return 0;
 }
